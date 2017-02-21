@@ -17,7 +17,7 @@ class ApiController extends Controller
     }
     
     public function getAllProfiles() {
-        $apiUrl = $this->urlBase . "app_dev.php/api-profiles";
+        $apiUrl = $this->urlBase . "api-profiles";
 
         //Lo primerito, creamos una variable iniciando curl, pasándole la url
         $ch = \curl_init($apiUrl);
@@ -46,7 +46,7 @@ class ApiController extends Controller
     }
     
     public function getProfileById($profileId) {
-        $apiUrl = $this->urlBase . "app_dev.php/api-profile/" . $profileId;
+        $apiUrl = $this->urlBase . "api-profile/" . $profileId;
 
         //Lo primerito, creamos una variable iniciando curl, pasándole la url
         $ch = \curl_init($apiUrl);
@@ -75,7 +75,7 @@ class ApiController extends Controller
     }
     
     public function createProfile($parametros) {
-        $apiUrl = $this->urlBase . "app_dev.php/api-create-profile";
+        $apiUrl = $this->urlBase . "api-create-profile";
 
         //Lo primerito, creamos una variable iniciando curl, pasándole la url
         $ch = \curl_init($apiUrl);
@@ -104,7 +104,7 @@ class ApiController extends Controller
     }
     
     public function editProfile($profileId, $parametros) {
-        $apiUrl = $this->urlBase . "app_dev.php/api-edit-profile/" . $profileId;
+        $apiUrl = $this->urlBase . "api-edit-profile/" . $profileId;
 
         //Lo primerito, creamos una variable iniciando curl, pasándole la url
         $ch = \curl_init($apiUrl);
@@ -133,7 +133,7 @@ class ApiController extends Controller
     }
     
     public function deleteProfile($profileId) {
-        $apiUrl = $this->urlBase . "app_dev.php/api-delete-profile/" . $profileId;
+        $apiUrl = $this->urlBase . "api-delete-profile/" . $profileId;
 
         //Lo primerito, creamos una variable iniciando curl, pasándole la url
         $ch = \curl_init($apiUrl);
