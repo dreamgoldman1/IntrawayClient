@@ -6,7 +6,7 @@ use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 
 class ApiController extends Controller
 {
-    private $urlBase = 'http://http://54.202.167.7/';
+    private $urlBase = 'http://54.202.167.7/';
     
     public function apiAction()
     {
