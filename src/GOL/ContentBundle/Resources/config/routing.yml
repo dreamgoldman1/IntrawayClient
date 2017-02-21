@@ -1,0 +1,23 @@
+gol_content_homepage:
+    path:     /
+    defaults: { _controller: GOLContentBundle:Profile:profiles }
+    
+gol_content_profiles:
+    path:     /profiles
+    defaults: { _controller: GOLContentBundle:Profile:profiles }
+    
+gol_content_profile:
+    path:     /profile/{profileId}
+    defaults: { _controller: GOLContentBundle:Profile:profile }
+
+gol_content_create_profile:
+    path:     /create-profile
+    defaults: { _controller: GOLContentBundle:Profile:createprofile }
+    
+gol_content_edit_profile:
+    path:     /edit-profile/{profileId}
+    defaults: { _controller: GOLContentBundle:Profile:editprofile }
+
+gol_content_delete_profile:
+    path:     /delete-profile/{profileId}
+    defaults: { _controller: GOLContentBundle:Profile:deleteprofile }
