@@ -73,7 +73,7 @@ class ProfileController extends Controller
         if ($request->getMethod() == 'POST'){
             $fileName = NULL;
             $fileContent = NULL;
-            if ($request->get('image') !== NULL){
+            if ($request->files->get('image') !== NULL){
                 foreach ($request->files as $uploaded) {
                     $fileName = $uploaded->getClientOriginalName();
                     $file = $uploaded->move($this->dirPath, "/" . $fileName);

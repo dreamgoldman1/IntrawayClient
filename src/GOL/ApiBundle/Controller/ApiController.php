@@ -7,12 +7,10 @@ use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 class ApiController extends Controller
 {
     private $urlBase = 'http://54.202.167.7/';
+    //private $urlBase = 'http://intrawayserver.dev/';
     
     public function apiAction()
     {
-        echo "<pre>";
-        var_dump($this->getAllProfiles());
-        die;
         return $this->render('GOLApiBundle:Default:index.html.twig');
     }
     

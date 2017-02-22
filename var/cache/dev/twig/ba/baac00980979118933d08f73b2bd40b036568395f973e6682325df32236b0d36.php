@@ -15,11 +15,11 @@ class __TwigTemplate_b61cd704acb413e138ed2cc71d9d002de4ac5dd543b7993414d73882465
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_b50abcc4f8b955260524509d0d85ebecc21b7ca500daf10441012912e0b368e5 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_b50abcc4f8b955260524509d0d85ebecc21b7ca500daf10441012912e0b368e5->enter($__internal_b50abcc4f8b955260524509d0d85ebecc21b7ca500daf10441012912e0b368e5_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "GOLMenuBundle:Menu:menu.html.twig"));
+        $__internal_b4a38123cdb704c44c421e22e50a0d345dbcf6a281fc5315855e3aadec227426 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_b4a38123cdb704c44c421e22e50a0d345dbcf6a281fc5315855e3aadec227426->enter($__internal_b4a38123cdb704c44c421e22e50a0d345dbcf6a281fc5315855e3aadec227426_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "GOLMenuBundle:Menu:menu.html.twig"));
 
-        $__internal_59e1afb910b7d75e4ffb5563a382f1f1011b6d8d30272315eacc0fcc9bf7943c = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_59e1afb910b7d75e4ffb5563a382f1f1011b6d8d30272315eacc0fcc9bf7943c->enter($__internal_59e1afb910b7d75e4ffb5563a382f1f1011b6d8d30272315eacc0fcc9bf7943c_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "GOLMenuBundle:Menu:menu.html.twig"));
+        $__internal_74348f01b9a3633bacc66b90fb699807c1571a5839ecdce7dede21d9b0c41b1f = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_74348f01b9a3633bacc66b90fb699807c1571a5839ecdce7dede21d9b0c41b1f->enter($__internal_74348f01b9a3633bacc66b90fb699807c1571a5839ecdce7dede21d9b0c41b1f_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "GOLMenuBundle:Menu:menu.html.twig"));
 
         // line 1
         echo "<div class=\"page-header-menu\">
@@ -46,10 +46,10 @@ class __TwigTemplate_b61cd704acb413e138ed2cc71d9d002de4ac5dd543b7993414d73882465
     </div>
     <!-- END HEADER MENU -->";
         
-        $__internal_b50abcc4f8b955260524509d0d85ebecc21b7ca500daf10441012912e0b368e5->leave($__internal_b50abcc4f8b955260524509d0d85ebecc21b7ca500daf10441012912e0b368e5_prof);
+        $__internal_b4a38123cdb704c44c421e22e50a0d345dbcf6a281fc5315855e3aadec227426->leave($__internal_b4a38123cdb704c44c421e22e50a0d345dbcf6a281fc5315855e3aadec227426_prof);
 
         
-        $__internal_59e1afb910b7d75e4ffb5563a382f1f1011b6d8d30272315eacc0fcc9bf7943c->leave($__internal_59e1afb910b7d75e4ffb5563a382f1f1011b6d8d30272315eacc0fcc9bf7943c_prof);
+        $__internal_74348f01b9a3633bacc66b90fb699807c1571a5839ecdce7dede21d9b0c41b1f->leave($__internal_74348f01b9a3633bacc66b90fb699807c1571a5839ecdce7dede21d9b0c41b1f_prof);
 
     }
 
